@@ -1,36 +1,28 @@
 {
-    "items": [
-        {
-            "id": "F101",
-            "item": "backpack",
-            "color": "black",
-            "location": "Library 2nd floor",
-            "date": "2026-09-15",
-            "status": "unclaimed"
-        },
-        {
-            "id": "F102",
-            "item": "water bottle",
-            "color": "blue",
-            "location": "Room A203",
-            "date": "2026-09-16",
-            "status": "unclaimed"
-        },
-        {
-            "id": "F103",
-            "item": "headphones",
-            "color": "white",
-            "location": "Cafeteria",
-            "date": "2026-09-16",
-            "status": "claimed"
-        },
-        {
-            "id": "F104",
-            "item": "laptop charger",
-            "color": "black",
-            "location": "Computer Lab",
-            "date": "2026-09-17",
-            "status": "unclaimed"
-        }
-    ]
+  "items": [
+    {
+      "id": "F101",
+      "item": "backpack",
+      "color": "black",
+      "location": "Library 2nd floor",
+      "date_found": "2026-09-15",
+      "claimed": false
+    },
+    {
+      "id": "F102",
+      "item": "water bottle",
+      "color": "blue",
+      "location": "Cafeteria",
+      "date_found": "2026-09-16",
+      "claimed": true
+    },
+    {
+      "id": "F103",
+      "item": "umbrella",
+      "color": "black",
+      "location": "Main Gate",
+      "date_found": "2026-09-17",
+      "claimed": false
+    }
+  ]
 }
